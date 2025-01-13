@@ -1,0 +1,57 @@
+body{
+    background-image: url(wall2.jpg);
+    background-size: cover;
+}
+
+.head{
+    background-color: rgba(0, 0, 0, 0.13);
+    margin-top: 2%;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-radius: 20px;
+    border: 5px solid white;
+}
+
+.comp1{
+    line-height: 3.0;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    background-color: rgba(0, 0, 0, 0);
+    margin-top: 6%;
+    margin-left: 20%;
+    margin-right: 20%;
+    border: 15px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    padding: 5px;
+}
+.comp1 img{
+    width: 450px;
+    height: auto;
+    border-radius: 20px;
+}
+
+.comp1 p{
+    color: rgba(0, 0, 0, 0.5);
+    margin: 5px 0;
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.bottom{
+    margin-bottom: 1%;
+    background-color: rgba(0, 0, 0, 0);
+    margin-left: 20%;
+    margin-right: 20%;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.bottom p{
+    font-size: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgba(0, 0, 0, 0.5);
+
+}
